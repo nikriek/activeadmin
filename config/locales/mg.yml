@@ -1,0 +1,148 @@
+---
+mg:
+  active_admin:
+    dashboard: Tabilao fandrindrana
+    dashboard_welcome:
+      welcome: Tongasoa amin'ny. Pejin'ny Mpandrindra
+      call_to_action: Ho fanampiana sokajy ao anatin'ny tabilao fandrindrana, hamarino
+        ny 'app/admin/dashboard.rb'
+    view: Mijery
+    edit: Manova
+    delete: Mamono
+    delete_confirmation: Fafana tokoa ve?
+    create_another: Manokatra %{model} vaovao
+    new_model: "%{model} vaovao"
+    edit_model: Manova ny %{model}
+    delete_model: Mamafa  %{model}
+    details: Mombamomban'ny %{model}
+    cancel: Hajanona
+    empty: Tsy misy
+    previous: Teo aloha
+    next: Manaraka
+    download: 'Ampidiro:'
+    has_many_new: Manampy %{model} vaovao
+    has_many_delete: Mamono
+    has_many_remove: Manala
+    move: Mamindra
+    filters:
+      buttons:
+        filter: Manivana
+        clear: Mamafa
+      predicates:
+        contains: Ao anatiny
+        equals: Mira
+        starts_with: Manomboka amin'ny
+        ends_with: Mamarana amin'ny
+        greater_than: Lehibe noho
+        less_than: Kely noho
+        gteq_datetime: Lehibe na mitovy amin'ny
+        lteq_datetime: Kely noho na mitovy amin'ny
+        from: Avy amin'ny
+        to: Ho an'ny
+    search_status:
+      headline: Mitady ny momba azy
+      current_scope: 'Sehatra:'
+      current_filters: 'Sivana mahazatra:'
+      no_current_filters: Tsy misy
+    status_tag:
+      'yes': Eny
+      'no': Tsia
+    main_content: Azafady, apetraho ny %{model}#main_content mba hiseho ny votoatiny
+    logout: Mivoaka
+    powered_by: Tohanan'ny %{active_admin} %{version}
+    sidebars:
+      filters: Manivana
+      search_status: Mitady ny momba azy
+    pagination:
+      empty: Tsy hita
+      one: Aseho avokoa ireo <b>1</b> %{model}
+      one_page: Aseho avokoa ireo %{model} <b>%{n}</b>
+      multiple: Totalin'ny %{to}</b>  an'ny <b>%{total}</b>
+      multiple_without_total: Aseho avokoa ireo %{model} <b>%{from}&nbsp
+      per_page: 'Isaky ny pejy:'
+      entry:
+        one: Tafiditra
+        other: Tafiditra
+    any: Any
+    blank_slate:
+      content: Mbola tsy nisy %{resource_name}.
+      link: Manokatra vaovao
+    dropdown_actions:
+      button_label: Hetsika
+    batch_actions:
+      button_label: Safidina daholo
+      default_confirmation: Fafana tokoa ve?
+      delete_confirmation: Fafana tokoa ve  ireo  %{plural_model}?
+      succesfully_destroyed:
+        one: Voafafa soamantsara ny %{model} 1
+        other: Voafafa soamantsara ny %{plural_model} %{count}
+      selection_toggle_explanation: Safidio
+      action_label: Voafidy
+      labels:
+        destroy: Mamono
+    comments:
+      created_at: Voasokatra
+      resource_type: Karazana loharano
+      author_type: Karazana Mpanoratra
+      body: Votoatiny
+      author: Mpanoratra
+      add: Manampy Fanamarihana
+      delete: Mamafa Fanamarihana
+      delete_confirmation: Fafana tokoa ve io fanamarihana io?
+      resource: Loharano
+      no_comments_yet: Mbola tsy misy fanamarihana
+      author_missing: Tsy fantatra
+      title_content: Fanamarihana (%{count})
+      errors:
+        empty_text: Tsy voatahiry ny fanamarihana, tsy nisy lahatsoratra.
+    devise:
+      username:
+        title: Anaran'ny mpampiasa
+      email:
+        title: Mailaka
+      subdomain:
+        title: Subdomain
+      password:
+        title: Teny miafina
+      password_confirmation:
+        title: Hamarinina ny teny miafina
+      sign_up:
+        title: Misoratra
+        submit: Misoratra
+      login:
+        title: Miditra
+        remember_me: Tsarovy aho
+        submit: Miditra
+      reset_password:
+        title: Hadino ny teny miafina?
+        submit: Averina ny teny miafina
+      change_password:
+        title: Ovao ny teny miafina
+        submit: Ovao ny teny miafina
+      unlock:
+        title: Avereno alefa ny toromarika  ho famahana
+        submit: Avereno alefa ny toromarika ho famahana
+      resend_confirmation_instructions:
+        title: Avereno alefa ny toromarika ho fanamarinana
+        submit: Avereno alefa ny toromarika ho fanamarinana
+      links:
+        sign_up: Misoratra anarana
+        sign_in: Connexion
+        forgot_your_password: Hadino ny teny miafina?
+        sign_in_with_omniauth_provider: Miditra amin'ny anaran'ny %{provider}
+        resend_unlock_instructions: Avereno alefa ny toromarika ho famahana
+        resend_confirmation_instructions: Avereno alefa ny toromarika ho fanamarinana
+    unsupported_browser:
+      headline: Azafady tadidio fa ny Fidiran'ny Mpandrindra dia tsy mahazaka Internet
+        Explorer 8 na latsaka intsony.
+      recommendation: Mamporisika anao <a href="http://browsehappy.com/"> hanavao
+        ny "navigateur" anao </a> mba hampivoatra kokoa ny fampiasanao azy.
+      turn_off_compatibility_view: "\"Raha mampiasa IE 9 na ambony kokoa ianao, hamarino
+        fa nakatonao ny"
+    access_denied:
+      message: tsy afaka manatanteraka  io hetsika io ianao
+    index_list:
+      table: Tabilao
+      block: Lisitra
+      grid: Tabilao
+      blog: Blaogy
